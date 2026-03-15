@@ -1,11 +1,100 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hachicoco-web</title>
+<meta charset="UTF-8">
+<title>HachiCoco Apps</title>
+
+<style>
+body{
+    font-family: "Zen Antique Soft", sans-serif;
+    background:#f9f9f9;
+    text-align:center;
+    margin:0;
+}
+
+header{
+    background:#a8e6cf;
+    padding:20px;
+}
+
+nav a{
+    margin:10px;
+    text-decoration:none;
+    font-weight:bold;
+    color:#333;
+}
+
+section{
+    padding:40px;
+}
+
+.app-box{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    width:300px;
+    margin:auto;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.button{
+    display:inline-block;
+    padding:10px 20px;
+    background:#ffaaa5;
+    color:white;
+    border-radius:8px;
+    text-decoration:none;
+}
+
+footer{
+    margin-top:40px;
+    padding:20px;
+    background:#eee;
+}
+</style>
 </head>
+
 <body>
-    ページ作成テスト
+
+<header>
+<h1>HachiCoco Apps</h1>
+<nav>
+<a href="#home">ホーム</a>
+<a href="#app">アプリ紹介</a>
+<a href="#privacy">プライバシーポリシー</a>
+</nav>
+</header>
+
+<section id="home">
+<h2>ようこそ</h2>
+<p>シンプルで楽しいアプリを作っています。</p>
+</section>
+
+<section id="app">
+<h2>アプリ紹介</h2>
+
+<div class="app-box">
+<h3>いろあてクイズ</h3>
+<p>色を当てるシンプルなゲームです。</p>
+
+<a class="button" href="ここにGooglePlayのURL">
+GooglePlayで見る
+</a>
+</div>
+
+</section>
+
+<section id="privacy">
+<h2>プライバシーポリシー</h2>
+<p>
+本アプリでは広告配信のために
+Google AdMobを使用しています。
+</p>
+</section>
+
+<footer>
+<p>© HachiCoco</p>
+</footer>
+
 </body>
 </html>
